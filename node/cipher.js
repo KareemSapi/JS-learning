@@ -1,9 +1,9 @@
 
 const crypto = require('crypto');
-const algorithm = 'aes-256-ctr';
-const ENCRYPTION_KEY = Buffer.from('FoCKvdLslUuB4y3EZlKate7XGottHski1LmyqJHvUhs=', 'base64'); // or generate sample key Buffer.from('FoCKvdLslUuB4y3EZlKate7XGottHski1LmyqJHvUhs=', 'base64');
-const IV_LENGTH = 16;
-const { body } = require('express-validator');
+const algorithm; //assign the algorithm. 
+const ENCRYPTION_KEY; //assign encription key. 
+const IV_LENGTH; //assign length.
+
 
 function encrypt(text) {
 	let iv = crypto.randomBytes(IV_LENGTH);
