@@ -1,6 +1,9 @@
 function genRandomCode(){
+    
+    var num1; 
+    var num2;
 
-    var result = Math.floor(1000 + Math.random()*9000);
+    var result = Math.floor(num1 + Math.random()*num2);
 
     result = String(result);
     
