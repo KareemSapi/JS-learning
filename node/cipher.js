@@ -1,7 +1,7 @@
 
 const crypto = require('crypto');
-const algorithm; //assign the algorithm. 
-const ENCRYPTION_KEY; //assign encription key. 
+const algorithm = 'aes-256-ctr'; //assign the algorithm. 
+const ENCRYPTION_KEY = Buffer.from('FoCKvdLslUuB4y3EZlKrhb7XGottHski1LmyqJHvUhs=', 'base64'); //assign encription key. 
 const IV_LENGTH; //assign length.
 
 
